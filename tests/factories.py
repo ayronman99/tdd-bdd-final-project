@@ -44,7 +44,7 @@ class ProductFactory(factory.Factory):
             "Ford",
             "Chevy",
             "Hammer",
-            "Wrench"
+            "Wrench",
         ]
     )
     description = factory.Faker("text")
@@ -58,4 +58,5 @@ class ProductFactory(factory.Factory):
             Category.HOUSEWARES,
             Category.AUTOMOTIVE,
             Category.TOOLS,
-        ])
+        ]
+    )
